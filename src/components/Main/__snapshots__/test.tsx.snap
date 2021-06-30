@@ -40,8 +40,24 @@ exports[`<Main /> Should render the heading 1`] = `
 }
 
 .c4 {
-  margin-top: 3rem;
-  width: min(30rem,100%);
+  width: min(40rem,100%);
+  margin-top: 2.5rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c5 {
+  width: 5rem;
 }
 
 <main
@@ -50,7 +66,7 @@ exports[`<Main /> Should render the heading 1`] = `
   <img
     alt="logo"
     class="c1"
-    src="/img/logo.svg"
+    src="/img/code.svg"
   />
   <h1
     class="c2"
@@ -62,10 +78,34 @@ exports[`<Main /> Should render the heading 1`] = `
   >
     TypeScript, ReactJS, NextJS and Styled Components
   </h2>
-  <img
-    alt="People"
+  <article
     class="c4"
-    src="/img/hero-illustration.svg"
-  />
+  >
+    <img
+      alt="logo"
+      class="c5"
+      src="/img/ts.svg"
+    />
+    <img
+      alt="logo"
+      class="c5"
+      src="/img/react.svg"
+    />
+    <img
+      alt="logo"
+      class="c5"
+      src="/img/next.svg"
+    />
+    <img
+      alt="logo"
+      class="c5"
+      src="/img/storybook.png"
+    />
+    <img
+      alt="logo"
+      class="c5"
+      src="/img/sc.png"
+    />
+  </article>
 </main>
 `

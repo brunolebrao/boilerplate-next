@@ -27,3 +27,13 @@ export const Illustration = styled.img`
   margin-top: 3rem;
   width: min(30rem, 100%);
 `
+export const Article = styled.article`
+  width: min(40rem, 100%);
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`
+export const ImgTechnologies = styled.img`
+  width: 5rem;
+`
