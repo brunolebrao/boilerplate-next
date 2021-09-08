@@ -108,4 +108,4 @@ exports[`<Main /> Should render the heading 1`] = `
     />
   </article>
 </main>
-`
+`;
